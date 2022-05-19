@@ -1,5 +1,10 @@
-.App {
+ *{
+   margin: 0;
+   padding: 0;
+ }
+ .App {
   text-align: center;
+  font-family: 'Poppins', sans-serif;
 }
 
 .App-logo {
@@ -27,12 +32,81 @@
 .App-link {
   color: #61dafb;
 }
+.container{
+  margin-bottom: 10px;
+  margin-top: 10px;
+  
+  padding: 20px; 
+  width:50% ;
+   margin-left: auto;
+   margin-right: auto;
+   background-color: #dadada;
+ 
+  display: flex;
+}
+.img{
+  background-color: rgb(255, 194, 114);
+  width: 150px;
+  height:150px;
+  border-radius: 100px;
+  border:2px solid black
+}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.search-bar{
+  
+ 
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.navbar{
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(228, 228, 228);
+}
+.search-box{
+  width: 45%;
+  padding: 20px;
+}
+.search{
+  color: rgb(47, 47, 47);
+  width: 5%;
+  padding: 20px;
+  padding-top:9px;
+  padding-bottom: 20px;
+  background-color: rgb(228, 228, 228);
+  border-color: rgb(182, 182, 182);
+  border-style:solid;
+  border-radius: 0;
+}
+.contact-no{
+  font-size: 36px;
+  color: rgb(102, 102, 102);
+}
+
+.AddContact input{
+  width: 200px;
+  padding: 20px 10px;
+  margin: 10px;
+}
+.addbtn{
+ width: 75%;
+ 
+  padding: 20px;
+} 
+.AddContact{
+  width: 20%;
+  
+  left:0;
+  border: #d2d2d2 1px solid;
+  padding-bottom: 77px;
+}
+.list{
+  width: 80%;
+  right: 0;
+  margin: 0;
+
+}
+.main{
+  display: flex;
 }
